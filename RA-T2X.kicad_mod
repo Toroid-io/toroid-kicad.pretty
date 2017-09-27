@@ -1,8 +1,8 @@
-(module RA-T2X (layer F.Cu) (tedit 59ADB5E1)
-  (fp_text reference G*** (at 0 -3.556) (layer F.SilkS) hide
+(module RA-T2X (layer F.Cu) (tedit 59BF4259)
+  (fp_text reference HS1 (at 0.1 -13.7) (layer F.SilkS) hide
     (effects (font (thickness 0.3)))
   )
-  (fp_text value RA-T2X-38E (at 0 2.7305) (layer F.SilkS) hide
+  (fp_text value heatsink-mb_pin (at -1.3 13.7) (layer F.SilkS) hide
     (effects (font (thickness 0.3)))
   )
   (fp_poly (pts (xy -10.033052 -12.628959) (xy -9.930004 -12.574385) (xy -9.853371 -12.527283) (xy -9.788306 -12.481395)
@@ -515,8 +515,8 @@
     (xy -11.132989 -8.466067) (xy -11.132774 -9.053571) (xy -11.132766 -9.286659) (xy -11.132766 -12.12271)
     (xy -11.01117 -12.299491) (xy -10.801461 -12.528661) (xy -10.560283 -12.662062) (xy -10.300018 -12.696544)
     (xy -10.033052 -12.628959)) (layer F.SilkS) (width 0.01))
-  (pad 1 thru_hole circle (at -12.7 0) (size 4 4) (drill 2.3) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 12.7 0) (size 4 4) (drill 2.3) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -12.7 0) (size 4.5 4.5) (drill 2.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 12.7 0) (size 4.5 4.5) (drill 2.5) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/TOROID-KiCad.3dshapes/heatsink/RA-T2X-38E.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
