@@ -1,9 +1,9 @@
-(module DFN5 (layer F.Cu) (tedit 5BABD2C6)
+(module DFN5 (layer F.Cu) (tedit 5BC8DF85)
   (descr "Plastic QFP, ON DFN5 (SO-8FL)")
   (fp_text reference Q2 (at 0 -3.8989) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
-  (fp_text value NVMFS5C677NL (at 0 3.8989) (layer F.SilkS)
+  (fp_text value NVMFS5C677NL (at 0 3.8989) (layer F.SilkS) hide
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
   (fp_line (start 3 -2.6) (end 3 -3.4) (layer F.SilkS) (width 0.127))
